@@ -1,0 +1,35 @@
+{{#mol-for-me-item}}
+  {{#items}}
+    <div class="row item-block {{item-reverse}}">
+      <div class="col-12 col-lg-5">
+        <div class="info-for-me__main__item">
+          <div class="info-for-me__main__item__title">
+            {{#number}}
+              <span>{{{number}}}</span>
+            {{/number}}
+            {{#number-title}}
+              <h2>{{{number-title}}}</h2>
+            {{/number-title}}
+          </div>
+          {{#info}}
+            <div class="info-for-me__main__item__text">
+              <p>
+                {{{info}}}
+              </p>
+            </div>
+          {{/info}}
+        </div>
+      </div>
+      {{#number-title-2}}
+        <div class="col-12 col-lg-5">
+          <div class="info-for-me__main__color-item">
+            {{#number-2}}
+              <h2>{{{number-2}}}</h2>
+            {{/number-2}}
+            <h3>{{{number-title-2}}}</h3>
+          </div>
+        </div>
+      {{/number-title-2}}
+    </div>
+  {{/items}}
+{{/mol-for-me-item}}

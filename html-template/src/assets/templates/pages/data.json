@@ -1,0 +1,47 @@
+{
+  "head": {
+    "title": "Home"
+  },
+  "org-home-header":true,
+  "org-home-banner":true,
+  "org-my-experience":{
+    "mol-for-me-item":{
+      "items":[
+        {
+          "number":"01.",
+          "number-title":"Passion",
+          "info":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi facilis cumque sint a similique aliquam. Corporis, reprehenderit eos magnam at, sequi eum beatae, quisquam libero corrupti blanditiis",
+          "number-2":"122",
+          "number-title-2":"Sleepless Nights"
+        },
+        {
+          "item-reverse":"item-reverse",
+          "number":"02.",
+          "number-title":"Knowledge",
+          "info":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi facilis cumque sint a similique aliquam. Corporis, reprehenderit eos magnam at, sequi eum beatae, quisquam libero corrupti blanditiis",
+          "number-2":"122",
+          "number-title-2":"Sleepless Nights"
+        },
+        {
+          "number":"03.",
+          "number-title":"Experience",
+          "info":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi facilis cumque sint a similique aliquam. Corporis, reprehenderit eos magnam at, sequi eum beatae, quisquam libero corrupti blanditiis",
+          "number-2":"122",
+          "number-title-2":"Sleepless Nights"
+        }
+      ]
+    }
+  },
+  "org-for-me-info":true,
+  "org-slider-project":true,
+  "org-my-works":true,
+  "org-my-foot":true,
+  "foot": {
+    "vendor-scripts": {
+      "jquery": true,
+      "slick-slider": true,
+      "aos": true,
+      "bootstrap": true
+    }
+  }
+}

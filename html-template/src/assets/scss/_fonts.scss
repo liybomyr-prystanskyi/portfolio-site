@@ -1,0 +1,65 @@
+/* Variables */
+$fontPath: '../fonts/';
+
+
+/* Font faces */
+@font-face {
+  font-family: 'font-name';
+  src: url('#{$fontPath}/font-name.font-extension') format('format');
+}
+
+
+/* opensans-bold */
+@font-face {
+  font-family: 'opensans-light';
+  font-style: normal;
+  font-weight: 100;
+  src: url('#{$fontPath}/OpenSans-Light.eot'); /* IE9 Compat Modes */
+  src: local('OpenSans-Light'), local('OpenSans-Light'),
+       url('#{$fontPath}/OpenSans-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('#{$fontPath}/OpenSans-Light.woff') format('woff'), /* Modern Browsers */
+       url('#{$fontPath}/OpenSans-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+
+/* opensans-bold */
+@font-face {
+  font-family: 'opensans-bold';
+  font-style: normal;
+  font-weight: 100;
+  src: url('#{$fontPath}/OpenSans-Bold.eot'); /* IE9 Compat Modes */
+  src: local('OpenSans-Bold'), local('OpenSans-Bold'),
+       url('#{$fontPath}/OpenSans-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('#{$fontPath}/OpenSans-Bold.woff') format('woff'), /* Modern Browsers */
+       url('#{$fontPath}/OpenSans-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+/* opensans-bold */
+@font-face {
+  font-family: 'opensans-regular';
+  font-style: normal;
+  font-weight: 100;
+  src: url('#{$fontPath}/OpenSans-Regular.eot'); /* IE9 Compat Modes */
+  src: local('OpenSans-Regular'), local('OpenSans-Regular'),
+       url('#{$fontPath}/OpenSans-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('#{$fontPath}/OpenSans-Regular.woff') format('woff'), /* Modern Browsers */
+       url('#{$fontPath}/OpenSans-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+
+/* Raleway-Thin */
+@font-face {
+  font-family: 'raleway-thin';
+  font-style: normal;
+  font-weight: 100;
+  src: url('#{$fontPath}/Raleway-Thin.eot'); /* IE9 Compat Modes */
+  src: local('raleway-thin'), local('raleway-thin'),
+       url('#{$fontPath}/Raleway-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('#{$fontPath}/Raleway-Thin.woff') format('woff'), /* Modern Browsers */
+       url('#{$fontPath}/Raleway-Thin.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+
+
+
+
