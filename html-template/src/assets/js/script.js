@@ -1,12 +1,18 @@
 $(function () {
+    $('.open-popup-link').magnificPopup({
+        type: 'inline',
+        midClick: true,
+        mainClass: 'mfp-fade'
+      });
 
+      
     $('.slider-project__main__slider').slick({
         // draggable: true,
         arrows: false,
         dots: false,
         fade: true,
         speed: 900,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 2000,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -66,6 +72,8 @@ $(function () {
         e = $(document).scrollTop()
     })
 })
+
+
 
 // Init AOS
 AOS.init();

@@ -16,13 +16,13 @@
       <!-- Bootstrap -->
       <script src="assets/js/vendors/bootstrap.js"></script>
     {{/bootstrap}}
-
+    <script src="//cdn.jsdelivr.net/jquery.magnific-popup/1.0.0/jquery.magnific-popup.min.js"></script>
 
     {{#map}}
       <!-- Map -->
       <script>
         function initMap() {
-          var coords = {lat: 49.812813, lng: 24.000806};
+          var coords = { lat: 49.812813, lng: 24.000806 };
           var map = new google.maps.Map(document.getElementById('map'), {
             zoom: 15,
             center: coords
@@ -35,11 +35,12 @@
         }
       </script>
       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoLs4jh4_7ZW16LDVDAXDPGISWv9RN-x8&callback=initMap"
-      async defer></script>
+        async defer></script>
     {{/map}}
-    {{/vendor-scripts}}      
-    <!-- Custom script -->
-    <script src="assets/js/script.min.js"></script>
-    </body>
+  {{/vendor-scripts}}
+  <!-- Custom script -->
+  <script src="assets/js/script.min.js"></script>
+  </body>
+
   </html>
 {{/foot}}

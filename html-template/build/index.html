@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/vendors/font-awesome.css">
     <link rel="stylesheet" href="assets/css/vendors/aos.css">
     <link rel="stylesheet" href="assets/css/vendors/slick.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.magnific-popup/1.0.0/magnific-popup.css">
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image">
     <link rel="stylesheet" href="assets/css/style.min.css">
     <title>Home</title>
@@ -35,7 +36,10 @@
         <div class="nav_wrapper wrapper-style">
             <div class="container claerfix d-flex align-items-lg-center align-items-start justify-content-between">
                 <div class="w-100 d-flex justify-content-between align-items-center flex-wrap">
-                    <img class="brand-style" src="assets/img/logo.png" alt="logo">
+                    <a href="#">
+            <img class="brand-style" src="assets/img/logo.png" alt="logo">
+          </a>
+
                     <div class="spinner-master">
                         <input type="checkbox" id="spinner-form" />
                         <label for="spinner-form" class="spinner-spin">
@@ -60,44 +64,23 @@
     <section class="info-for-me">
         <div class="container">
             <div class="info-for-me__main">
-                <div class="row item-block ">
-                    <div class="col-12 col-lg-5">
-                        <div class="info-for-me__main__item">
-                            <div class="info-for-me__main__item__title">
-                                <span>01.</span>
-                                <h2>Passion</h2>
-                            </div>
-                            <div class="info-for-me__main__item__text">
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi facilis cumque sint a similique aliquam. Corporis, reprehenderit eos magnam at, sequi eum beatae, quisquam libero corrupti blanditiis
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-5">
-                        <div class="info-for-me__main__color-item">
-                            <h2>122</h2>
-                            <h3>Sleepless Nights</h3>
-                        </div>
-                    </div>
-                </div>
                 <div class="row item-block item-reverse">
                     <div class="col-12 col-lg-5">
                         <div class="info-for-me__main__item">
                             <div class="info-for-me__main__item__title">
-                                <span>02.</span>
+                                <span>01.</span>
                                 <h2>Knowledge</h2>
                             </div>
                             <div class="info-for-me__main__item__text">
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi facilis cumque sint a similique aliquam. Corporis, reprehenderit eos magnam at, sequi eum beatae, quisquam libero corrupti blanditiis
+                                    HTML5, CSS3, SCSS, LESS, SASS, Flexbox,Gulp.js, Adobe XD, JavaScript JQuery, Photoshop, Bootstrap, Git, Atomic Design, Landing Page Optimization,
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-lg-5">
                         <div class="info-for-me__main__color-item">
-                            <h2>122</h2>
+                            <h2>273.75</h2>
                             <h3>Sleepless Nights</h3>
                         </div>
                     </div>
@@ -106,20 +89,21 @@
                     <div class="col-12 col-lg-5">
                         <div class="info-for-me__main__item">
                             <div class="info-for-me__main__item__title">
-                                <span>03.</span>
+                                <span>02.</span>
                                 <h2>Experience</h2>
                             </div>
                             <div class="info-for-me__main__item__text">
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi facilis cumque sint a similique aliquam. Corporis, reprehenderit eos magnam at, sequi eum beatae, quisquam libero corrupti blanditiis
+                                    In the first place I work on myself and continue to develop in IT field. 9 months I worked at Simplify where I got new knowledge as a Front-End Developer. During this period, i consolidated its knowledge in the Mustache template engine, CSS3, HTML5, Js,
+                                    JQ, Bootstrap, Atomic Design, SCSS, SASS, Gulp, Flexbox and others. I want to continue development in the field of Front-End.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-lg-5">
                         <div class="info-for-me__main__color-item">
-                            <h2>122</h2>
-                            <h3>Sleepless Nights</h3>
+                            <h2>10</h2>
+                            <h3>Completed Projects</h3>
                         </div>
                     </div>
                 </div>
@@ -195,16 +179,17 @@
                 <div class="row">
                     <div class="col-12 col-lg-4">
                         <div class="my-works__content__item">
-
                             <div class="view view-second">
                                 <img src="assets/img/capanova.PNG" />
                                 <div class="mask"></div>
                                 <div class="content">
                                     <h2>Capanova</h2>
-                                    <p>A description of some sort between these tags. I am so cool and awesomely awesome.</p>
-                                    <a href="#" class="info">Read More</a>
+                                    <a href="#popup-1" class="info  open-popup-link">Read More</a>
                                 </div>
                             </div>
+                        </div>
+                        <div id="popup-1" class="white-popup mfp-hide">
+                            <img src="assets/img/presentation-capanova.png" alt="capanova">
                         </div>
                     </div>
 
@@ -215,10 +200,13 @@
                                 <div class="mask"></div>
                                 <div class="content">
                                     <h2>Well Planed</h2>
-                                    <p>A description of some sort between these tags. I am so cool and awesomely awesome.</p>
-                                    <a href="#" class="info">Read More</a>
+                                    <a href="#popup-2" class="info open-popup-link">Read More</a>
                                 </div>
                             </div>
+                        </div>
+
+                        <div id="popup-2" class="white-popup mfp-hide">
+                            <img src="assets/img/well-planed-new.png" alt="well-planed">
                         </div>
                     </div>
 
@@ -229,10 +217,12 @@
                                 <div class="mask"></div>
                                 <div class="content">
                                     <h2>James McGregor</h2>
-                                    <p>A description of some sort between these tags. I am so cool and awesomely awesome.</p>
-                                    <a href="#" class="info">Read More</a>
+                                    <a href="#popup-3" class="info open-popup-link">Read More</a>
                                 </div>
                             </div>
+                        </div>
+                        <div id="popup-3" class="white-popup mfp-hide">
+                            <img src="assets/img/jim-mg.png" alt="jim-mg">
                         </div>
                     </div>
 
@@ -243,10 +233,12 @@
                                 <div class="mask"></div>
                                 <div class="content">
                                     <h2>Rock Design</h2>
-                                    <p>A description of some sort between these tags. I am so cool and awesomely awesome.</p>
-                                    <a href="#" class="info">Read More</a>
+                                    <a href="#popup-4" class="info open-popup-link">Read More</a>
                                 </div>
                             </div>
+                        </div>
+                        <div id="popup-4" class="white-popup mfp-hide">
+                            <img src="assets/img/rock-design.png" alt="rock-design">
                         </div>
                     </div>
 
@@ -257,10 +249,12 @@
                                 <div class="mask"></div>
                                 <div class="content">
                                     <h2>Poligraphia</h2>
-                                    <p>A description of some sort between these tags. I am so cool and awesomely awesome.</p>
-                                    <a href="#" class="info">Read More</a>
+                                    <a href="#popup-5" class="info open-popup-link">Read More</a>
                                 </div>
                             </div>
+                        </div>
+                        <div id="popup-5" class="white-popup mfp-hide">
+                            <img src="assets/img/poligraphiaa.png" alt="poligraphia">
                         </div>
                     </div>
 
@@ -271,10 +265,12 @@
                                 <div class="mask"></div>
                                 <div class="content">
                                     <h2>Simplify</h2>
-                                    <p>A description of some sort between these tags. I am so cool and awesomely awesome.</p>
-                                    <a href="#" class="info">Read More</a>
+                                    <a href="#popup-6" class="info open-popup-link">Read More</a>
                                 </div>
                             </div>
+                        </div>
+                        <div id="popup-6" class="white-popup mfp-hide">
+                            <img src="assets/img/simplify-site.png" alt="simplify">
                         </div>
                     </div>
 
@@ -285,10 +281,12 @@
                                 <div class="mask"></div>
                                 <div class="content">
                                     <h2>Tabakov School</h2>
-                                    <p>A description of some sort between these tags. I am so cool and awesomely awesome.</p>
-                                    <a href="#" class="info">Read More</a>
+                                    <a href="#popup-7" class="info open-popup-link">Read More</a>
                                 </div>
                             </div>
+                        </div>
+                        <div id="popup-7" class="white-popup mfp-hide">
+                            <img src="assets/img/tabakov-school.png" alt="tabakov">
                         </div>
                     </div>
 
@@ -312,8 +310,8 @@
                         </div>
                         <div class="my-footer-content__location">
                             <div>
-                                <p>Україна, місто Львів</p>
-                                <p> Вулиця В.Симоненка</p>
+                                <p>Ukraine, L'viv</p>
+                                <p>V.Symonenka Street</p>
                             </div>
                             <div class="phone-block">
                                 <img src="assets/img/phone-img.png" alt="phone">
@@ -330,18 +328,18 @@
                         <div class="my-footer-content__social-icon">
                             <ul>
                                 <li>
-                                    <a href="#">
+                                    <a href="https://www.facebook.com/profile.php?id=100008323813870">                 
                     facebook
                   </a>
                                 </li>
                                 <li>
-                                    <a href="#">instagram</a>
+                                    <a href="https://www.instagram.com/l.prystansky/">instagram</a>
                                 </li>
                                 <li>
-                                    <a href="#">linkedin</a>
+                                    <a href="https://www.linkedin.com/in/liybomur-prystansky-30ab68182/">linkedin</a>
                                 </li>
                                 <li>
-                                    <a href="#">gmail</a>
+                                    <a href="l.prysransky@gmail.com">gmail: l.prysransky@gmail.com</a>
                                 </li>
                             </ul>
                         </div>
@@ -369,7 +367,7 @@
     <script src="assets/js/vendors/aos.js"></script>
     <!-- Bootstrap -->
     <script src="assets/js/vendors/bootstrap.js"></script>
-
+    <script src="//cdn.jsdelivr.net/jquery.magnific-popup/1.0.0/jquery.magnific-popup.min.js"></script>
 
     <!-- Custom script -->
     <script src="assets/js/script.min.js"></script>

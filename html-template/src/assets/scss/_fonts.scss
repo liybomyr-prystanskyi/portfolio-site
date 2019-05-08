@@ -34,7 +34,7 @@ $fontPath: '../fonts/';
        url('#{$fontPath}/OpenSans-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
 }
 
-/* opensans-bold */
+/* opensans-regular */
 @font-face {
   font-family: 'opensans-regular';
   font-style: normal;
@@ -45,6 +45,20 @@ $fontPath: '../fonts/';
        url('#{$fontPath}/OpenSans-Regular.woff') format('woff'), /* Modern Browsers */
        url('#{$fontPath}/OpenSans-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
 }
+
+
+/* opensans-light */
+@font-face {
+  font-family: 'opensans-light';
+  font-style: normal;
+  font-weight: 100;
+  src: url('#{$fontPath}/OpenSans-Light.eot'); /* IE9 Compat Modes */
+  src: local('OpenSans-Light'), local('OpenSans-Light'),
+       url('#{$fontPath}/OpenSans-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('#{$fontPath}/OpenSans-Light.woff') format('woff'), /* Modern Browsers */
+       url('#{$fontPath}/OpenSans-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
 
 
 /* Raleway-Thin */
@@ -60,6 +74,43 @@ $fontPath: '../fonts/';
 }
 
 
+/* Raleway-Light */
+@font-face {
+  font-family: 'raleway-light';
+  font-style: normal;
+  font-weight: 100;
+  src: url('#{$fontPath}/Raleway-Light.eot'); /* IE9 Compat Modes */
+  src: local('raleway-Light'), local('raleway-Light'),
+       url('#{$fontPath}/Raleway-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('#{$fontPath}/Raleway-Light.woff') format('woff'), /* Modern Browsers */
+       url('#{$fontPath}/Raleway-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+
+
+/* Raleway-Medium */
+@font-face {
+  font-family: 'raleway-medium';
+  font-style: normal;
+  font-weight: 100;
+  src: url('#{$fontPath}/Raleway-Medium.eot'); /* IE9 Compat Modes */
+  src: local('raleway-madium'), local('raleway-medium'),
+       url('#{$fontPath}/Raleway-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('#{$fontPath}/Raleway-Medium.woff') format('woff'), /* Modern Browsers */
+       url('#{$fontPath}/Raleway-Medium.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+/* Raleway-Bold */
+@font-face {
+  font-family: 'raleway-bold';
+  font-style: normal;
+  font-weight: 100;
+  src: url('#{$fontPath}/Raleway-Bold.eot'); /* IE9 Compat Modes */
+  src: local('raleway-bold'), local('raleway-bold'),
+       url('#{$fontPath}/Raleway-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('#{$fontPath}/Raleway-Bold.woff') format('woff'), /* Modern Browsers */
+       url('#{$fontPath}/Raleway-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+}
 
 
 
