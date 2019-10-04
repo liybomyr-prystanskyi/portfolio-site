@@ -781,6 +781,32 @@
       min-height: 220px;
       position: relative;
     }
+
+    &__button {
+      width: 100%;
+      height: auto;
+      transition: all .3s ease-in-out;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 30px auto 0;
+
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-color: rgb(32, 52, 49);
+        min-height: 50px;
+        color: #fff;
+        font-size: 16px;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: all .3s ease-in-out;
+        font-family: "raleway-light";
+        padding: 0 50px;
+      }
+    }
   }
 }
 
@@ -1070,10 +1096,12 @@
     align-items: center;
     flex-wrap: wrap;
   }
+
   .my-footer-content__social-icon ul li {
     padding: 0 15px 5px 0;
   }
 }
+
 @media all and (max-width: 992px) {
   .brand-style {
     max-width: 70px;
@@ -1082,44 +1110,52 @@
   ::-webkit-input-placeholder {
     font-size: 14px;
   }
-  
+
   ::-moz-placeholder {
     font-size: 14px;
   }
-  
+
   :-ms-input-placeholder {
     font-size: 14px;
   }
-  
+
   :-moz-placeholder {
     font-size: 14px;
   }
-  
+
 
   .my-footer-content__location a {
     font-size: 14px;
   }
+
   .my-footer-content__location p {
     font-size: 14px;
   }
+
   .my-footer-content__contact-info__name h3 {
     font-size: 16px;
   }
+
   .my-footer-content__contact-info__name h2 {
     font-size: 16px;
   }
+
   .info-for-me__main__color-item:after {
     top: -40.93% !important;
   }
+
   .info-for-me__main__item__text p {
     font-size: 14px;
   }
+
   .home-banner__main__my-info h3 {
     font-size: 25px;
   }
+
   .home-banner__main__my-info h2 {
     font-size: 25px;
   }
+
   .my-footer-content__location {
     padding-bottom: 10px;
   }
