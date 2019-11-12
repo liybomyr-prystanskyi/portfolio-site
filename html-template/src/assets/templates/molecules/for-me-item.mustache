@@ -3,7 +3,7 @@
     <div class="row item-block {{item-reverse}}">
       <div class="col-12 col-lg-5">
         <div class="info-for-me__main__item">
-          <div class="info-for-me__main__item__title">
+          <div class="info-for-me__main__item__title" data-aos="flip-left">
             {{#number}}
               <span>{{{number}}}</span>
             {{/number}}
@@ -12,7 +12,7 @@
             {{/number-title}}
           </div>
           {{#info}}
-            <div class="info-for-me__main__item__text">
+            <div class="info-for-me__main__item__text" data-aos="flip-right">
               <p>
                 {{{info}}}
               </p>
@@ -22,7 +22,7 @@
       </div>
       {{#number-title-2}}
         <div class="col-12 col-lg-5">
-          <div class="info-for-me__main__color-item">
+          <div class="info-for-me__main__color-item" data-aos="flip-left">
             {{#number-2}}
               <h2>{{{number-2}}}</h2>
             {{/number-2}}

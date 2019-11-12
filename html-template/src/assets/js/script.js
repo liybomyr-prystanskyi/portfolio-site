@@ -23,6 +23,13 @@ $(function () {
 
 });
 
+
+jQuery("#to-top").click(function (){
+    jQuery('html, body').animate({
+        scrollTop: jQuery('.home-banner').offset().top
+    }, 1200);						   
+});
+
 var list = $("#works .item");
 var numToShow = 3;
 var button = $("#loadMore");
